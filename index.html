@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary e Gabi Petshop</title>
+    <link rel="icon" href="img/patinha-preta.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a>
+          <img class="logo" src="img/logo-mari-e-gabi-petshop.svg" alt="Logo">  
+        </a>
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>Sobre</li>
+                    <img src="img/patinha-preta.png">
+                </a>
+                <span></span>
+                <a href="#">
+                    <li>Produtos</li>
+                    <img src="img/patinha-preta.png">
+                </a>
+                <span></span>
+                <a href="#">
+                    <li>Serviços</li>
+                    <img src="img/patinha-preta.png">
+                </a>
+                <span></span>
+                <a href="#">
+                    <li>Contato</li>
+                    <img src="img/patinha-preta.png">
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="flex-box green">
+        <div class="text-box">
+            <h1>Sobre Nós</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae rem provident architecto mollitia doloremque nostrum quasi tempore adipisci? Est repellendus, ipsa mollitia pariatur recusandae cumque inventore cupiditate voluptate quos. Dignissimos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita magnam consectetur eius, possimus culpa debitis omnis quis veritatis enim aliquid repellendus distinctio blanditiis incidunt deserunt animi pariatur dolore veniam obcaecati.</p>
+        </div>
+        <div class="dogImg">
+            <img src="img/img-sobre.jpg" alt="Filhotes de Cachorro">
+        </div>
+    </section>
+    <section class="flex-box produtosSection">
+        <div class="text-box text-header">
+            <h1>Produtos</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia rem nihil veniam voluptatem maiores quos pariatur id harum quo voluptate a, vitae sint dolores, sunt labore tempora necessitatibus. Molestiae, dolor.</p>
+        </div>
+        <div class="produtosContainer">
+            <div class="produto">
+                <div class="produtoImgBox">
+                    <img class="produtoImg" src="img/produto-1.jpg">
+                </div>
+                <div class="produtoText">
+                    <h1>Pet Produto #1</h1>
+                    <p>R$ 150,00</p>
+                </div>
+                <button class="produtoButton">
+                    <img src="img/patinha-preta.png">
+                    <p>Comprar</p>
+                </button>
+            </div>
+            <div class="produto">
+                <div class="produtoImgBox">
+                    <img class="produtoImg" src="img/produto-2.jpg">
+                </div>
+                <div class="produtoText">
+                    <h1>Pet Produto #2</h1>
+                    <p>R$ 150,00</p>
+                </div>
+                <button class="produtoButton">
+                    <img src="img/patinha-preta.png">
+                    <p>Comprar</p>
+                </button>
+            </div>
+            <div class="produto">
+                <div class="produtoImgBox">
+                    <img class="produtoImg" src="img/produto-3.jpg">
+                </div>
+                <div class="produtoText">
+                    <h1>Pet Produto #3</h1>
+                    <p>R$ 150,00</p>
+                </div>
+                <button class="produtoButton">
+                    <img src="img/patinha-preta.png">
+                    <p>Comprar</p>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="flex-box green">
+        <div class="text-box">
+            <h1>Serviços</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae rem provident architecto mollitia doloremque nostrum quasi tempore adipisci? Est repellendus, ipsa mollitia pariatur recusandae cumque inventore cupiditate voluptate quos. Dignissimos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita magnam consectetur eius, possimus culpa debitis omnis quis veritatis enim aliquid repellendus distinctio blanditiis incidunt deserunt animi pariatur dolore veniam obcaecati.</p>
+        </div>
+        <div class="servicosImg dogImg">
+            <img src="img/img-galeria-1.jpg">
+            <img src="img/img-galeria-2.jpg">
+            <img src="img/img-galeria-3.jpg">
+            <img src="img/img-galeria-4.jpg">
+        </div>
+    </section>
+    <section class="flex-box flexContato">
+        <div class="text-box text-header">
+            <h1>Contato</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia rem nihil veniam voluptatem maiores quos pariatur id harum quo voluptate a, vitae sint dolores, sunt labore tempora necessitatibus. Molestiae, dolor.</p>
+        </div>
+        <div class="formContato">
+            <form class="teste">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Insira o seu nome completo">
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="exemplo@teste.com.br">
+                <br>
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" placeholder="(11)0000-0000 ou (11)90000-0000">
+                <br>
+                <label for="assunto">Assunto:</label>
+                <input type="text" name="assunto" id="assunto" placeholder="Insira aqui o assunto da mensagem">
+                <br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="10" placeholder="Insira aqui sua mensagem"></textarea>
+                <button type="submit" class="produtoButton formButton">
+                    <img src="img/patinha-preta.png" class="patinha">
+                    <p>Enviar</p>
+                </button>
+            </form>
+            <div class="contatoEndereco">
+                <iframe class="contatoMapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14613.534332317886!2d-46.7659416!3d-23.6979923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1c5ccd29c1a3e96a!2sEtec%20Jardim%20%C3%82ngela!5e0!3m2!1spt-BR!2sbr!4v1652987557255!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p><strong>Endereço:</strong> Almeida Campos,237 - Vila Mariana, São Paulo / Sp</p>
+                <p><strong>CEP:</strong> 04101-300</p>
+                <p><strong>TEL:</strong> (11)6666-7777</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <hr>
+        <p>Copyright &copy2019 <strong>Mary & Gabi</strong> | Todos os direitos resevados</p>
+    <footer>
+    
+</body>
+</html>
