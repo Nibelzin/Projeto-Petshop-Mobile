@@ -8,7 +8,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/img/fundo-topo.jpg);
+    background-image: url('../img/fundo-topo.jpg');
     margin: 0;
 }
 .logo{
